@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(45deg, rgb(15, 15, 15), rgb(110, 109, 109));
+}
+.container{
+    padding: 15px;
+    box-shadow: 0 0 15px black;
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 15px;
+}
+.display input{
+    width: 360px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    color: aliceblue;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: -5px -6px 15px rgb(0, 0, 0);
+    outline: 1px solid rgb(70, 68, 68);
+    outline-offset: 3px;
+    cursor: pointer;
+}
+button:active{
+    background: rgb(77, 75, 75);
+    transform: translate(2px, 2px);
+}
+.opr{
+    color: yellow;
+    background: rgb(88, 86, 86);
+    font-weight: 700px;
+}
+#eqBtn{
+background: rgb(255, 134, 21);
+font-weight: 900;
+}
